@@ -22,7 +22,7 @@ public class NavgationActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(NavgationActivity.this,MainActivity.class);
                 startActivity(intent);
-                finish();
+
             }
         });
     }
